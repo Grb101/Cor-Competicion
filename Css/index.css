@@ -357,10 +357,10 @@ li .footer-menu__item {
     border-style: double;
 }
 
-.tarjetas__imagenes--size{
+/* .tarjetas__imagenes--size{
     width: 290px;
     height: 260px;
-}
+} */
 
 #Servicios{
     background-color: #CAD2C5;
@@ -419,12 +419,11 @@ li .footer-menu__item {
 }
 
 
-@media screen and (max-width: 628px) {
+ @media screen and (max-width: 628px) {
     #grid_servicios {
         display: grid;
         grid-template-columns: repeat( 1 ,auto);
-        grid-template-rows: repeat(7 ,auto);
-    
+        grid-template-rows: repeat(7 ,auto);    
     }
     .tajetas--title{
         grid-column: 1/2;
@@ -433,7 +432,7 @@ li .footer-menu__item {
         max-width: 100%;
       
     }
-}
+} 
 
 
 
